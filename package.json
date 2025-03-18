@@ -1,0 +1,16 @@
+{
+  "name": "applybot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src"
+  },
+  "keywords": [],
+  "author": "terror",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
