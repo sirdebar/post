@@ -8,7 +8,7 @@ export default {
      */
     async exec(query, [ userId ]) {
         await bot.sendMessage(userId, [
-            `*✅ Вы приняты.* Ссылка на чат ${config.approvedChatUrl} - вступай и ожидай принятия.`,
+            `*✅ Вы приняты* ссылка на чат: ${config.approvedChatUrl}`,
             "⚡️ В закрепе вся информация для работы."
         ].join("\n\n"), {
             parse_mode: "Markdown"
